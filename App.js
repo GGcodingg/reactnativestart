@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
    backgroundColor: '#2A2A2A', 
    justifyContent: 'center',
    alignItems: 'center',
+   paddingTop: 50,
   },
   title: {
     color: '#fff',
