@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
 import MeuComponent from './MeuComponente';
 
@@ -12,7 +12,23 @@ export default function App() {
 
       <Text style={styles.title}>GGcoding</Text>
 
-      <MeuComponent />
+      <ScrollView>
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+        <MeuComponent />
+      </ScrollView>
 
     </View>
   );
