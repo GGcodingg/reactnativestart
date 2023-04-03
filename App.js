@@ -2,18 +2,17 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import MeuComponent from './MeuComponente';
+
 export default function App() {
   return (
     <View style={styles.container}>
 
       <StatusBar style="light" />
 
-      <Text style={styles.title}>GGcoding respect</Text>
+      <Text style={styles.title}>GGcoding</Text>
 
-    <View>
-      <Text>React Native</Text>
-      <Text>Criando aplicações para Android e iOS</Text>
-    </View>
+      <MeuComponent />
 
     </View>
   );
@@ -28,5 +27,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#fff',
-  }
+    fontSize: 24,
+    marginBottom: 24,
+  },
 });
