@@ -5,17 +5,28 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>GGcoding respect</Text>
-      <StatusBar style="auto" />
+
+      <StatusBar style="light" />
+
+      <Text style={styles.title}>GGcoding respect</Text>
+
+    <View>
+      <Text>React Native</Text>
+      <Text>Criando aplicações para Android e iOS</Text>
+    </View>
+
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+   flex: 1,
+   backgroundColor: '#2A2A2A', 
+   justifyContent: 'center',
+   alignItems: 'center',
   },
+  title: {
+    color: '#fff',
+  }
 });
